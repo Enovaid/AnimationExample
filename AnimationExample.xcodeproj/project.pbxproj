@@ -16,6 +16,7 @@
 		FD633C032560B4B800C69087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD633C012560B4B800C69087 /* LaunchScreen.storyboard */; };
 		FD633C0E2560B4B900C69087 /* AnimationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD633C0D2560B4B900C69087 /* AnimationExampleTests.swift */; };
 		FD633C192560B4B900C69087 /* AnimationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD633C182560B4B900C69087 /* AnimationExampleUITests.swift */; };
+		FD633C2A2560BC8600C69087 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD633C292560BC8600C69087 /* CustomSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FD633C142560B4B900C69087 /* AnimationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD633C182560B4B900C69087 /* AnimationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleUITests.swift; sourceTree = "<group>"; };
 		FD633C1A2560B4B900C69087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD633C292560BC8600C69087 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FD633C012560B4B800C69087 /* LaunchScreen.storyboard */,
 				FD633C042560B4B800C69087 /* Info.plist */,
 				FD633BFC2560B4B800C69087 /* AnimationExample.xcdatamodeld */,
+				FD633C292560BC8600C69087 /* CustomSegue.swift */,
 			);
 			path = AnimationExample;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				FD633BF82560B4B800C69087 /* ViewController.swift in Sources */,
 				FD633BFE2560B4B800C69087 /* AnimationExample.xcdatamodeld in Sources */,
 				FD633BF42560B4B800C69087 /* AppDelegate.swift in Sources */,
+				FD633C2A2560BC8600C69087 /* CustomSegue.swift in Sources */,
 				FD633BF62560B4B800C69087 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
